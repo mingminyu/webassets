@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "WPS PPT Assistant",
+  "version": "1.0",
+  "description": "A plugin to optimize PPT with AI assistance.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["main.js"]
+  },
+  "permissions": ["activeTab", "storage"],
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
